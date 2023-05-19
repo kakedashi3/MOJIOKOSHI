@@ -6,10 +6,12 @@ This script downloads a YouTube video, extracts the audio, and transcribes it us
 
 To run this script, you need the following packages:
 
+```Requirements
 python-dotenv==0.19.1
 pytube==11.0.1
 pydub==0.25.1
 openai==0.27.0
+```
 
 arduino
 Copy code
