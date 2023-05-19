@@ -20,7 +20,8 @@ pip install -r requirements.txt
 ```
 
 ## OpenAI API Key
-This script uses the OpenAI API for transcription. To use it, you need an OpenAI API key. Set this key as an environment variable in a .env file in the same directory as your script.
+This script uses the OpenAI API for transcription.   
+To use it, you need an OpenAI API key. Set this key as an environment variable in a .env file in the same directory as your script.
 
 First, make a copy of the .env.example file:
 
@@ -44,7 +45,7 @@ python moji.py https://www.youtube.com/watch?v=dQw4w9WgXcQ
 This script accomplishes a multi-step process: it downloads a YouTube video, extracts the audio, splits the audio into manageable chunks, and transcribes each chunk. The transcriptions are both displayed in the console and saved as individual text files in the 'input' directory. Additionally, each chunk of audio is stored as a .wav file in the 'output' directory.
 
 ## API Cost　
-For a 25 minute video?  
+For a 25 minute video, the cost is?  
 $0.15  
 How long did it take?  
 1 minute 40 seconds  
@@ -57,6 +58,6 @@ To manage environment variables, such as your OpenAI API key, we use a .env file
 OPENAI_API_KEY=your_api_key_here
 ```
 
-To use it, simply make a copy of the .env.example file, rename it to .env, and replace your_api_key_here with your actual OpenAI API key.
+To use it, simply make a copy of the .env.example file, rename it to .env, and replace your_api_key_here with your actual OpenAI API key.  
 
 Cording by ChatGPT🚀🌟
