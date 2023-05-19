@@ -13,14 +13,13 @@ pydub==0.25.1
 openai==0.27.0
 ```
 
-arduino
-Copy code
-
 You can install these packages using pip:
 
 ```bash
 pip install -r requirements.txt
-OpenAI API Key
+```
+
+## OpenAI API Key
 This script uses the OpenAI API for transcription. To use it, you need an OpenAI API key. Set this key as an environment variable in a .env file in the same directory as your script.
 
 First, make a copy of the .env.example file:
@@ -36,17 +35,16 @@ OPENAI_API_KEY=your_api_key_here
 Usage
 You can run the script from the command line with the YouTube video URL as an argument. For example:
 
-bash
+```bash
 Copy code
 python your_script.py https://www.youtube.com/watch?v=dQw4w9WgXcQ
 This will download the video, extract and chunk the audio, and transcribe each chunk. The transcriptions will be printed to the console and also saved as text files in the input directory. Each chunk's audio is saved as a .wav file in the output directory.
 
-yaml
-Copy code
+
 
 ---
 
-`.env.example` ファイルは `.env` ファイルのテンプレートとして使います。これにより、ユーザーは環境変数を簡単に設定することができます。`.env.example` ファイルは以下のように作成します：
+The `.env.example` file is used as a template for the `.env` file. This allows users to easily set environment variables. The `.env.example` file should be created as follows
 
 ```dotenv
 # .env.example
