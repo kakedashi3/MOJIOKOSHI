@@ -52,3 +52,5 @@ OPENAI_API_KEY=your_api_key_here
 ```
 
 To use it, simply make a copy of the .env.example file, rename it to .env, and replace your_api_key_here with your actual OpenAI API key.
+
+Cording by ChatGPT🚀🌟
