@@ -36,17 +36,17 @@ Usage
 You can run the script from the command line with the YouTube video URL as an argument. For example:
 
 ```bash
-Copy code
 python your_script.py https://www.youtube.com/watch?v=dQw4w9WgXcQ
+```
+
 This will download the video, extract and chunk the audio, and transcribe each chunk. The transcriptions will be printed to the console and also saved as text files in the input directory. Each chunk's audio is saved as a .wav file in the output directory.
 
 
-
----
 
 The `.env.example` file is used as a template for the `.env` file. This allows users to easily set environment variables. The `.env.example` file should be created as follows
 
 ```dotenv
 # .env.example
+```
 
 OPENAI_API_KEY=your_api_key_here
