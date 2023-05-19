@@ -30,9 +30,10 @@ cp .env.example .env
 
 Then, open the .env file and replace your_api_key_here with your OpenAI API key:
 
-dotenv
-Copy code
+```dotenv
 OPENAI_API_KEY=your_api_key_here
+```
+
 Usage
 You can run the script from the command line with the YouTube video URL as an argument. For example:
 
