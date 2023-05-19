@@ -24,9 +24,10 @@ This script uses the OpenAI API for transcription. To use it, you need an OpenAI
 
 First, make a copy of the .env.example file:
 
-bash
-Copy code
+```bash
 cp .env.example .env
+```
+
 Then, open the .env file and replace your_api_key_here with your OpenAI API key:
 
 dotenv
@@ -39,14 +40,14 @@ You can run the script from the command line with the YouTube video URL as an ar
 python your_script.py https://www.youtube.com/watch?v=dQw4w9WgXcQ
 ```
 
-This will download the video, extract and chunk the audio, and transcribe each chunk. The transcriptions will be printed to the console and also saved as text files in the input directory. Each chunk's audio is saved as a .wav file in the output directory.
+This script accomplishes a multi-step process: it downloads a YouTube video, extracts the audio, splits the audio into manageable chunks, and transcribes each chunk. The transcriptions are both displayed in the console and saved as individual text files in the 'input' directory. Additionally, each chunk of audio is stored as a .wav file in the 'output' directory.
 
+To manage environment variables, such as your OpenAI API key, we use a .env file. To help set this up, we provide a .env.example file. This example file serves as a template, showing you the necessary format and variables needed for the script to work correctly.
 
+The .env.example file should look like this:
 
-The `.env.example` file is used as a template for the `.env` file. This allows users to easily set environment variables. The `.env.example` file should be created as follows
-
-```dotenv
+dotenv
+Copy code
 # .env.example
-```
-
 OPENAI_API_KEY=your_api_key_here
+To use it, simply make a copy of the .env.example file, rename it to .env, and replace your_api_key_here with your actual OpenAI API key.
