@@ -34,7 +34,7 @@ Then, open the .env file and replace your_api_key_here with your OpenAI API key:
 OPENAI_API_KEY=your_api_key_here
 ```
 
-Usage
+## Usage
 You can run the script from the command line with the YouTube video URL as an argument. For example:
 
 ```bash
@@ -45,10 +45,8 @@ This script accomplishes a multi-step process: it downloads a YouTube video, ext
 
 To manage environment variables, such as your OpenAI API key, we use a .env file. To help set this up, we provide a .env.example file. This example file serves as a template, showing you the necessary format and variables needed for the script to work correctly.
 
-The .env.example file should look like this:
-
-dotenv
-Copy code
 # .env.example
+```
 OPENAI_API_KEY=your_api_key_here
+```
 To use it, simply make a copy of the .env.example file, rename it to .env, and replace your_api_key_here with your actual OpenAI API key.
