@@ -38,7 +38,7 @@ OPENAI_API_KEY=your_api_key_here
 You can run the script from the command line with the YouTube video URL as an argument. For example:
 
 ```bash
-python your_script.py https://www.youtube.com/watch?v=dQw4w9WgXcQ
+python moji.py https://www.youtube.com/watch?v=dQw4w9WgXcQ
 ```
 
 This script accomplishes a multi-step process: it downloads a YouTube video, extracts the audio, splits the audio into manageable chunks, and transcribes each chunk. The transcriptions are both displayed in the console and saved as individual text files in the 'input' directory. Additionally, each chunk of audio is stored as a .wav file in the 'output' directory.
