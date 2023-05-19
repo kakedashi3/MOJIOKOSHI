@@ -44,10 +44,10 @@ python moji.py https://www.youtube.com/watch?v=dQw4w9WgXcQ
 This script accomplishes a multi-step process: it downloads a YouTube video, extracts the audio, splits the audio into manageable chunks, and transcribes each chunk. The transcriptions are both displayed in the console and saved as individual text files in the 'input' directory. Additionally, each chunk of audio is stored as a .wav file in the 'output' directory.
 
 ## API Cost　
-For a 25 minute video?　
-$0.15　
-How long did it take?
-1 minute 40 seconds
+For a 25 minute video?  
+$0.15  
+How long did it take?  
+1 minute 40 seconds  
 Wow😮Be careful not to overspend...
 
 # .env.example
